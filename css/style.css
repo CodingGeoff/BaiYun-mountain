@@ -4553,6 +4553,7 @@ input[type="button"].btn-block {
 .media-body {
   -webkit-box-flex: 1;
   -ms-flex: 1;
+  border-radius: 50% 50% 50% 50%;
   flex: 1; }
 
 .list-group {
