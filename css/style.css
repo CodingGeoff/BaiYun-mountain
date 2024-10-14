@@ -8905,7 +8905,7 @@ h1, h2, h3, h4, h5,
     left: 20px;
     margin-top: -8px;
     padding: 4px 10px;
-    background: #085808; }
+    background: #018383; }
     .project-destination .text h3:after, .project-destination .text h3:before {
       position: absolute;
       top: 0;
@@ -8917,7 +8917,7 @@ h1, h2, h3, h4, h5,
       border-style: solid;
       border-width: 0 0 8px 8px;
       /* border-color: transparent transparent #c7390d transparent;  */
-      border-color: transparent transparent #085808 transparent; 
+      border-color: transparent transparent #018383 transparent; 
     }
     .project-destination .text h3:before {
       width: 0;
@@ -8926,14 +8926,14 @@ h1, h2, h3, h4, h5,
       border-style: solid;
       border-width: 8px 0 0 8px;
       /* border-color: transparent transparent transparent #c7390d;  */
-      border-color: transparent transparent transparent #085808;
+      border-color: transparent transparent transparent #018383;
     }
   .project-destination .text span {
     position: absolute;
     bottom: 20px;
     right: -5px;
     display: inline-block;
-    background: #085808;
+    background: #018383;
     padding: 4px 5px 4px 15px;
     border-radius: 20px 0 0 20px;
     color: #fff;
@@ -8952,12 +8952,14 @@ h1, h2, h3, h4, h5,
       border-style: solid;
       border-width: 5px 0 0 5px;
       /* border-color: transparent transparent transparent #c7390d;  */
-      border-color: transparent transparent transparent #085808; 
+      border-color: transparent transparent transparent #018383; 
     }
 
 .project-destination:hover .text span {
   padding-right: 20px;
-  background: #f15d30; }
+  /* background: #f15d30;  */
+  background: #018383;
+}
 
 .project-wrap {
   margin-bottom: 30px; }
