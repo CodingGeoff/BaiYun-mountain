@@ -8594,11 +8594,11 @@ h1, h2, h3, h4, h5,
 .slider-text {
   position: relative; }
   .slider-text .subheading {
-    font-size: 30px;
+    font-size: 45px;
     color: #f15d30;
     font-family: "Arizonia", cursive; }
   .slider-text h1 {
-    font-size: 55px;
+    font-size: 50px;
     color: #fff;
     line-height: 1.2;
     font-weight: 700; }
@@ -8619,7 +8619,7 @@ h1, h2, h3, h4, h5,
         color: #000000; }
     .slider-text p.caps {
       font-weight: 400;
-      font-size: 16px;
+      font-size: 26px;
       /* font-size: 16px;  */
     }
   .slider-text .breadcrumbs {
