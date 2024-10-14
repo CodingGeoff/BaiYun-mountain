@@ -8830,20 +8830,22 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #f15d30 !important;
-    border: 1px solid #f15d30 !important;
+    background: #007f7f !important;
+    border: 1px solid #007f7f !important;
+    /* background: #f15d30 !important;
+    border: 1px solid #f15d30 !important; */
     color: #fff !important; }
     .btn.btn-primary:hover {
-      border: 1px solid #f15d30;
+      border: 1px solid #007f7f;
       background: transparent;
-      color: #f15d30; }
+      color: #007f7f; }
     .btn.btn-primary.btn-outline-primary {
-      border: 1px solid #f15d30;
+      border: 1px solid #007f7f;
       background: transparent;
-      color: #f15d30; }
+      color: #007f7f; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 1px solid transparent;
-        background: #f15d30;
+        background: #007f7f;
         color: #fff; }
   .btn.btn-secondary {
     background: #040e26 !important;
