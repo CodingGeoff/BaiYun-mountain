@@ -9402,7 +9402,9 @@ textarea.form-control {
 .heading-section h2 {
   font-size: 40px;
   font-weight: 600;
-  line-height: 1.4; }
+  line-height: 1.4; 
+  font-family: "Lucida Calligraphy";
+}
   .heading-section h2 span {
     font-weight: 400; }
   @media (max-width: 767.98px) {
