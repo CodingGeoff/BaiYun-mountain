@@ -52,7 +52,9 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
+  /* font-size: 1rem; */
+  font-size: 2rem;
+
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -9155,8 +9157,28 @@ h1, h2, h3, h4, h5,
   .services.color-3:after {
     background: #00a8b5; }
   .services.color-4:after {
-    background: #ff5959; } */
+    background: #ff5959;
+  } */
   
+  .services.color-1:after {
+    background: #1089ff; }
+  .services.color-2:after {
+    background: #048998; }
+  .services.color-3:after {
+    background: #4ef84e; 
+     }
+  .services.color-4:after {
+    background: #00a8b5;
+  }
+
+  /* background: #4ef84e;  */
+  .pic_content{
+    /* font-family: 'Arial', sans-serif;  */
+    font-size: 26px;
+    /* color: #fff; */
+    line-height: 1.2;
+    font-weight: bold;
+  }
   /* .services.color-1:after { 
       background: rgba(16, 137, 255, 1);  
       box-shadow: 0 0 10px rgba(16, 137, 255, 0.1);  
@@ -9177,33 +9199,33 @@ h1, h2, h3, h4, h5,
   }  
    */
   
-  .services.color-1:after { 
-    background: rgba(64, 149, 255, 0.8);  /* Lighter shade of the original color */
-    box-shadow: 0 0 10px rgba(64, 149, 255, 0.5);  /* Feathered effect */
-    color: #ffffff;  /* White text */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);  /* Black shadow for contrast */
-}
+  /* .services.color-1:after { 
+      background: rgba(64, 149, 255, 0.8); 
+      box-shadow: 0 0 10px rgba(64, 149, 255, 0.5);  
+      color: #ffffff; 
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
+    }
 
-.services.color-2:after { 
-    background: rgba(32, 159, 168, 0.8); 
-    box-shadow: 0 0 10px rgba(32, 159, 168, 0.5); 
-    color: #ffffff;  /* White text */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);  /* Black shadow for contrast */
-}
+    .services.color-2:after { 
+        background: rgba(32, 159, 168, 0.8); 
+        box-shadow: 0 0 10px rgba(32, 159, 168, 0.5); 
+        color: #ffffff;  
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);  
+    }
 
-.services.color-3:after { 
-    background: rgba(0, 188, 205, 0.8); 
-    box-shadow: 0 0 10px rgba(0, 188, 205, 0.5); 
-    color: #ffffff;  /* White text */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);  /* Black shadow for contrast */
-}
+    .services.color-3:after { 
+        background: rgba(0, 188, 205, 0.8); 
+        box-shadow: 0 0 10px rgba(0, 188, 205, 0.5); 
+        color: #ffffff;  
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);  
+    }
 
-.services.color-4:after { 
-    background: rgba(255, 119, 119, 0.8); 
-    box-shadow: 0 0 10px rgba(255, 119, 119, 0.5); 
-    color: #ffffff;  /* White text */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);  /* Black shadow for contrast */
-}
+    .services.color-4:after { 
+        background: rgba(255, 119, 119, 0.8); 
+        box-shadow: 0 0 10px rgba(255, 119, 119, 0.5); 
+        color: #ffffff; 
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);  
+  } */
 
 
 
