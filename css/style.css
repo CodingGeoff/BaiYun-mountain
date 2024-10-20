@@ -9106,14 +9106,35 @@ h1, h2, h3, h4, h5,
       color: rgba(255, 255, 255, 0.8); }
       .services.services-1 .media-body h3 {
         color: #fff; }
-  .services.color-1:after {
+  /* .services.color-1:after {
     background: #1089ff; }
   .services.color-2:after {
     background: #048998; }
   .services.color-3:after {
     background: #00a8b5; }
   .services.color-4:after {
-    background: #ff5959; }
+    background: #ff5959; } */
+  
+  .services.color-1:after { 
+      background: rgba(16, 137, 255, 0.8);  /* 加入透明效果 */
+      box-shadow: 0 0 10px rgba(16, 137, 255, 0.5);  /* 加入羽化效果 */
+  }  
+  
+  .services.color-2:after { 
+      background: rgba(4, 137, 152, 0.8); 
+      box-shadow: 0 0 10px rgba(4, 137, 152, 0.5); 
+  }  
+  
+  .services.color-3:after { 
+      background: rgba(0, 168, 181, 0.8); 
+      box-shadow: 0 0 10px rgba(0, 168, 181, 0.5); 
+  }  
+  
+  .services.color-4:after { 
+      background: rgba(255, 89, 89, 0.8); 
+      box-shadow: 0 0 10px rgba(255, 89, 89, 0.5); 
+  }  
+  
 
 .aside-stretch {
   background: #f48260; }
