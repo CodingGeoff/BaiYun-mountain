@@ -9323,19 +9323,27 @@ textarea.form-control {
 .ftco-section {
   padding: 7em 0;
   position: relative;
+  /* background-color: #005cbf; */
+
+
+  background: linear-gradient(to right, lightblue, lightyellow);
   width: 100%; }
   @media (max-width: 767.98px) {
     .ftco-section {
       padding: 6em 0; } }
 
 .ftco-no-pt {
+  /* background: linear-gradient(to right, lightblue, lightyellow); */
   padding-top: 0 !important; }
 
 .ftco-no-pb {
+  /* background: linear-gradient(to right, lightblue, lightyellow); */
   padding-bottom: 0 !important; }
 
 .ftco-bg-dark {
-  background: #3c312e; }
+  /* background: linear-gradient(to right, lightblue, lightyellow); */
+  background: #3c312e; 
+}
 
 .ftco-intro {
   color: rgba(255, 255, 255, 0.8);
