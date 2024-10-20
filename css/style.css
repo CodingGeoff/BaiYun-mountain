@@ -9106,6 +9106,48 @@ h1, h2, h3, h4, h5,
       color: rgba(255, 255, 255, 0.8); }
       .services.services-1 .media-body h3 {
         color: #fff; }
+
+    .testimonial-title {
+        /* font-family: 'Arial', sans-serif; 
+        font-size: 24px;
+        color: #fff;
+        line-height: 1.2;
+        font-weight: bold; */
+        font-family: "Lucida Calligraphy";
+        font-size: 36px;
+        color: #fff;
+        line-height: 1.2;
+        font-weight: 700;
+    }
+
+    .testimonial-content {
+      font-family: 'Arial', sans-serif; 
+      font-size: 16px;
+      color: #fff;
+      line-height: 1.2;
+      font-weight: bold;
+      /* font-family: "Lucida Calligraphy";
+      font-size: 36px;
+      color: #fff;
+      line-height: 1.2;
+      font-weight: 700; */
+  }
+
+  #testimonialForm {
+    max-width: 600px;
+    margin: 0 auto;
+  } 
+
+  /* Add a new class for the submit button */
+  #submitTestimonialButton {
+    background-color: #ff4500; /* Change color as needed */
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+
   /* .services.color-1:after {
     background: #1089ff; }
   .services.color-2:after {
@@ -9134,25 +9176,35 @@ h1, h2, h3, h4, h5,
       box-shadow: 0 0 10px rgba(255, 89, 89, 0.1); 
   }  
    */
+  
   .services.color-1:after { 
-      background: rgba(64, 149, 255, 0.8);  /* Lighter shade of the original color */
-      box-shadow: 0 0 10px rgba(64, 149, 255, 0.5);  /* Feathered effect */
-  }
+    background: rgba(64, 149, 255, 0.8);  /* Lighter shade of the original color */
+    box-shadow: 0 0 10px rgba(64, 149, 255, 0.5);  /* Feathered effect */
+    color: #ffffff;  /* White text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);  /* Black shadow for contrast */
+}
 
-  .services.color-2:after { 
-      background: rgba(32, 159, 168, 0.8);  /* Lighter shade of the original color */
-      box-shadow: 0 0 10px rgba(32, 159, 168, 0.5); 
-  }
+.services.color-2:after { 
+    background: rgba(32, 159, 168, 0.8); 
+    box-shadow: 0 0 10px rgba(32, 159, 168, 0.5); 
+    color: #ffffff;  /* White text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);  /* Black shadow for contrast */
+}
 
-  .services.color-3:after { 
-      background: rgba(0, 188, 205, 0.8);  /* Lighter shade of the original color */
-      box-shadow: 0 0 10px rgba(0, 188, 205, 0.5); 
-  }
+.services.color-3:after { 
+    background: rgba(0, 188, 205, 0.8); 
+    box-shadow: 0 0 10px rgba(0, 188, 205, 0.5); 
+    color: #ffffff;  /* White text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);  /* Black shadow for contrast */
+}
 
-  .services.color-4:after { 
-      background: rgba(255, 119, 119, 0.8);  /* Lighter shade of the original color */
-      box-shadow: 0 0 10px rgba(255, 119, 119, 0.5); 
-  }
+.services.color-4:after { 
+    background: rgba(255, 119, 119, 0.8); 
+    box-shadow: 0 0 10px rgba(255, 119, 119, 0.5); 
+    color: #ffffff;  /* White text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);  /* Black shadow for contrast */
+}
+
 
 
 .aside-stretch {
@@ -10145,3 +10197,4 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+  
